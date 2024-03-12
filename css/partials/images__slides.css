@@ -1,0 +1,30 @@
+.images__slides{
+    width: 100%;
+    height: 290px;
+    .images__slides__center{
+        width: 90%;
+        height: 240px;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        align-items: center;
+        margin: 20px auto;
+          .image__1 ,.image__2 ,.image__3 ,.image__4{
+            width: 330px;
+            height: inherit;
+            column-gap: 5px;
+            justify-content: center;
+            align-items: center;
+            margin-left: 10px;
+            
+             & img{
+                width: 322px;
+                height: 241px;
+                border-radius: 20px;
+                text-align: center;
+                justify-content: center;
+                
+            }
+         }
+    }
+}

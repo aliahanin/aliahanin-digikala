@@ -1,0 +1,274 @@
+.digiplus{
+    width: 100%;
+    height: 382px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0px;
+    .digiplus__center{
+        width: 1337px;
+        height: inherit;
+        background-color :#941b80;
+        border-radius: 30px;
+        display: flex;
+        .digi__right{
+           width: 440px;
+           height: inherit;
+           display: flex;
+           justify-content: center;
+           align-items: center;
+           flex-flow: row wrap;
+           
+           
+           
+           
+           
+           .digi__top{
+            width: 100%;
+            height: 90px;
+            display: flex;
+            justify-content: center;
+            align-items: right;
+            flex-flow: column wrap;
+            margin-right: 50px;
+            margin-top: 30px;
+            gap: 5px;
+            & svg{
+                width: 132px;
+                display: flex;
+                align-items: center;
+                justify-content: right  ;
+               }
+               & span{
+                font-size: 14px;
+                font-weight: 500;
+                font-family: var(--font-family);
+                color: white;
+    
+               }
+           }
+           .digi__buttom{
+            width: 100%;
+            height: 260px;
+            display: flex;
+            justify-content: right;
+            align-items: center;
+            position: relative;
+            background-image: url('https://www.digikala.com/statics/img/png/digiplus/plus-widget.png');
+            background-position: center center;
+            background-size: cover;
+
+            & a{
+                
+                position: absolute;
+                bottom: 230px;
+                right: 50px;
+                text-decoration: none;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-size: 12px;
+                font-weight: 800;
+                color: white;
+                border-radius: 10px;
+                border: 1px solid white;
+                font-family: var(--font-family);
+                line-height: 40px;
+                padding-right: 22px;
+                padding-left: 22px;
+                flex-flow: row wrap;
+                gap: 5px;
+                & svg{
+                   display: flex;
+                   align-items: center;
+                   justify-content: center;
+                   
+                }
+                
+                
+            }
+           }
+        }
+        .digi__left{
+            width: 890px;
+            height: inherit;
+            display: flex;
+            flex-flow: column wrap;
+            .gifts{
+                width: 432px;
+                height: 352px;
+                background-color: #ffffff;
+                margin-top: 12px;
+                border-top-right-radius: 10px;
+                border-bottom-right-radius: 10px;
+                flex-flow: row wrap;
+                margin-bottom: 20px;
+                
+                .gift__top{
+                    width: 100%;
+                    height: 65px;
+                    display: flex;
+                    flex-flow: row wrap;
+                    justify-content: center;
+                    align-items: center;
+                    & p{
+                        font-size: 15px;
+                        font-weight: bold;
+                        font-family: var(--font-family);
+                        text-transform: capitalize;
+                        justify-content: right;
+                        display: flex;
+                        align-items: center;
+                        column-gap: 10px;
+                        transform: translateX(95px);
+                    }
+                    & a{
+                        
+                        display: flex;
+                        text-decoration: none;
+                        justify-content: center;
+                        align-items: center;
+                        column-gap: 5px;
+                        color: #941b80;
+                        font-size: 13px;
+                        transform: translateX(-100px);
+                        & svg{
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            transform: translateY(-2px);
+                        }
+                    }
+                }
+                .gift__buttom{
+                    width: 100%;
+                    height: 290px;
+                    display: flex;
+                    flex-flow: row wrap;
+                    justify-content: space-between;
+                    align-items: center;
+                    padding-right: 10px;
+                    .change__images{
+                        width: 116px;
+                        height: 116px;
+                        display: flex;
+                        flex-flow: row wrap;
+                        justify-content: center;
+                        align-items: center;
+                        position: relative;
+                         & img{
+                            width: 116px;
+                            height: 116px;
+                         }
+                         .text{
+                            width: 81px;
+                            height: 26px;
+                            display: flex;
+                            justify-content: center;
+                            position: absolute;
+                            right:0;
+                            bottom:0;
+                            border-radius: 20px;
+                            background-color: #ffffff;
+                            color: #941b80;
+                            font-size: 18px;
+                            column-gap: 5px;
+                            line-height: 30px;
+                            justify-content: center;
+                            align-items: center;
+                            font-family: var(--font-family-salamat);
+                         }
+                    }
+                }
+            }
+            .send{
+                width: 432px;
+                height: 352px;
+                background-color: #ffffff;
+                margin-top: 12px;
+                border-top-left-radius: 10px;
+                border-bottom-left-radius: 10px;
+                flex-flow: row wrap;
+                margin-bottom: 20px;
+                .send__top{
+                    width: 100%;
+                    height: 65px;
+                    display: flex;
+                    flex-flow: row wrap;
+                    justify-content: center;
+                    align-items: center;
+                    & p{
+                        font-size: 15px;
+                        font-weight: bold;
+                        font-family: var(--font-family);
+                        text-transform: capitalize;
+                        justify-content: center;
+                        display: flex;
+                        align-items: center;
+                        column-gap: 10px;
+                        margin-right: 10px;
+                        transform: translateX(70px);
+                    }
+                    & a{
+                        
+                        display: flex;
+                        text-decoration: none;
+                        justify-content: center;
+                        align-items: center;
+                        margin-left: 20px;
+                        column-gap: 5px;
+                        color: #941b80;
+                        font-size: 13px;
+                        transform: translateX(-100px);
+                        & svg{
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            transform: translateY(-2px);
+                        }
+                    }
+                }
+                .send__buttom{
+                    width: 100%;
+                    height: 290px;
+                    display: flex;
+                    flex-flow: row wrap;
+                    justify-content: space-between;
+                    align-items: center;
+                    padding-right: 10px;
+                    .change__images__2{
+                        width: 116px;
+                        height: 116px;
+                        display: flex;
+                        flex-flow: row wrap;
+                        justify-content: center;
+                        align-items: center;
+                        position: relative;
+                         & img{
+                            width: 116px;
+                            height: 116px;
+                         }
+                         .text{
+                            width: 81px;
+                            height: 26px;
+                            display: flex;
+                            justify-content: center;
+                            position: absolute;
+                            right:0;
+                            bottom:0;
+                            border-radius: 20px;
+                            background-color: #ffffff;
+                            color: #941b80;
+                            font-size: 18px;
+                            column-gap: 5px;
+                            line-height: 30px;
+                            justify-content: center;
+                            align-items: center;
+                            font-family: var(--font-family-salamat);
+                         }
+                    }
+                }
+            }
+        }
+    }
+}

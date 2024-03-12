@@ -1,0 +1,148 @@
+.Suggestion{
+    width: 100%;
+    height: 392px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-flow: row wrap;
+    margin-bottom: 40px;
+    
+   .text-holder{
+        width: 100%; 
+        height: 60px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 50px;
+        
+        & h2{
+            text-align: center;
+            height: 60px;
+            font-size: 22px;
+            font-weight: 500;
+            
+        }
+    }
+    .Suggestion__center{
+        width: 100%;
+        height: 392px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-flow:row wrap ;
+        
+       .radius__1{
+        border-top-right-radius: 30px;
+        border-bottom-right-radius: 30px;
+       }
+       .radius__7{
+        border-top-left-radius: 30px;
+        border-bottom-left-radius: 30px ;
+       }
+       .change__suggestion{
+            width: 193px;
+            height: 319px;
+            border: 1px solid lightgrey;
+            
+            display: flex;
+            align-items: center;
+            flex-flow:row wrap ;
+            justify-content: center;
+            object-fit: cover;
+    
+            .up{
+                width: 190px;
+                height: 154px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border-bottom: 1px solid lightgrey;
+                
+              & a{
+                
+                text-decoration: none;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-flow: column wrap;
+                padding-left: 30px;
+                gap: 15px;
+                transform: translateX(-10px);
+                .circle{
+                    width: 84px;
+                    height: 84px;
+                    overflow: hidden;
+                    border-radius: 50px;
+                    display: flex;
+                    background-color: whitesmoke;
+                    justify-content: center;
+                    align-items: center;
+
+                    & img{
+                        width: 60px;
+                        height: 60px;
+                        color: black;
+                        mix-blend-mode: multiply;
+                }
+                                   
+                }
+                & h5{
+                    text-decoration: none;
+                    font-family: var(--font-family);
+                    color: #2b2b2b;
+                    justify-content: center;
+                }
+              }  
+                
+              
+            }
+            .down{
+                width: 190px;
+                height: 154px;
+                display: flex;
+                
+                justify-content: center;
+                align-items: center;
+                & a{
+                    transform: translateX(-10px);
+                    text-decoration: none;
+                    padding-left: 20px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    flex-flow: column wrap;
+                    padding-left: 30px;
+                    gap: 15px;
+                    
+                    .circle{
+                        width: 84px;
+                        height: 84px;
+                        overflow: hidden;
+                        border-radius: 50px;
+                        display: flex;
+                        background-color: whitesmoke;
+                        border: 1px solid whitesmoke;
+                        justify-content: center;
+                        align-items: center;
+    
+                        & img{
+                            width: 60px;
+                            height: 60px;
+                            color: black;
+                            mix-blend-mode: multiply;
+                    }
+                                       
+                    }
+                    & h5{
+                        text-decoration: none;
+                        font-family: var(--font-family);
+                        color: #2b2b2b;
+                        justify-content: center;
+                    }
+                  }  
+            }
+            
+        }
+        
+    }
+}

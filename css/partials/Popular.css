@@ -1,0 +1,62 @@
+.popular{
+    width: 100%;
+    height: 280px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+    .popular__center{
+        width: 90%;
+        height: inherit;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-flow: row wrap;
+        border: 1px solid darkgray;
+        border-radius: 30px;
+        padding: 0px 5px;
+        .popular__topic{
+            width: 100%;
+            height: 80px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            & p{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                column-gap: 10px;
+                font-size: 20px;
+                padding-top: 40px;
+                font-weight: 800;
+            }
+        }
+        .myPopular{
+            width: 100%;
+            height: 140px;
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: center;
+            align-items: center;
+            .change__popular{
+                display: flex;
+                flex-flow: row wrap;
+                justify-content: center;
+                align-items: center;
+                border-left: 1px solid darkgray;
+                & a {
+                    text-decoration: none;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    & img{
+                        width: 110px;
+                        height  : 110px;
+                        object-fit: cover;
+                    }
+                }
+            }
+        }
+    } 
+}

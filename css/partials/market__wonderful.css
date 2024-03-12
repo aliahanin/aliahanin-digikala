@@ -1,0 +1,134 @@
+.market__wonderful{
+    width: 100%;
+    height: 107px;
+    display: flex;
+    .center__market__wonderful{
+        width: 90%;
+        height: inherit;
+        display: flex;
+        flex-flow: row wrap;
+        align-items: center;
+        justify-content: right;
+        border-radius: 30px;
+        background-color: #ebeeeb ;
+        margin: 10px auto;
+        .right{
+            width: 560px;
+            height: inherit;
+            display: flex;
+            flex-flow: row wrap;
+            align-items: center;
+            padding-right: 40px;
+            column-gap: 10px;
+            & img{
+                width: 66px;
+                height: 64px;
+            }
+            & svg{
+                width: 250px !important;
+                height: 28px !important;
+            }
+            & p{
+                font-size: 15px;
+                color: white;
+                background-color: #39ae00;
+                border-radius: 30px;
+                padding: 5px;
+                font-family: var(--font-family);
+            }
+            
+                    }
+                    .left{
+                        width: 766px;
+                        height: inherit;
+                        display: flex;
+                        flex-flow: row wrap ;
+                        justify-content: center;
+                        align-items: left;
+                        .offers{
+                            width: inherit;
+                            height: inherit;
+                            display: flex;
+                            flex-flow: column wrap;
+                            align-items: center;
+                            justify-content: center;
+                            background-image: url(../../images/market__wonderful/freshPattern.svg);
+                            
+                            gap: 5px;
+                            .offers__1 , .offers__2 , .offers__3 , .offers__4 , .offers__5 , .offers__6{
+                                display: flex;
+                                flex-flow: row wrap;
+                                justify-content: center;
+                                align-items: center;
+                                width: 95px;
+                                height: 85px;
+                                position: relative;
+                                & a{
+                                    color: whitesmoke;
+                                    text-decoration: none;
+                                    display: flex;
+                                    flex-flow: row wrap;
+                                    & img{
+                                        width: 60px;
+                                        height: 6%;
+                                        border-radius: 50%;
+                                    }
+                                  & span{
+                                    background-color: crimson;
+                                    font-size: 18px;
+                                    position: absolute;
+                                    margin: 40px auto;
+                                    line-height: 10px;
+                                    text-align: center;
+                                    padding: 5px;
+                                    border-radius: 50px;
+                                    font-family: var(--font-family-salamat);
+                                    
+                                  }
+                                }
+                            }
+                            .offers__7{
+                                display: flex;
+                                width: 138px;
+                                height: 48px;
+                                flex-flow: row wrap;
+                                align-items: center;
+                                justify-content: center;
+                                margin-left: 50px;
+                                
+                                & a{
+                                    display: flex;
+                                    text-decoration: none;
+                                    
+                                    width: 138px;
+                                    column-gap: 10px;
+                                    height: inherit;
+                                    font-size: 13px;
+                                    font-weight: 900;
+                                    padding: 10px;
+                                    font-family: var(--font-family);                                    
+                                    color: #39ae00;
+                                    text-align: center;
+                                    align-items: center;
+                                    
+                                    justify-content: center;
+                                    background-color: whitesmoke;
+                                    border-radius: 70px;
+                                    line-height: 30px;
+                                    svg{
+                                        justify-content: center;
+                                    }
+                                    
+                                    
+                                    
+                                    
+
+                                }
+                               
+                            }
+            }
+
+        }
+
+    }
+}

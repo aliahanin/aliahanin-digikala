@@ -1,0 +1,32 @@
+.sopport{
+    width: 24px;
+    height: 24px;
+    position: fixed;
+    display: flex;
+    
+    left: 50px;
+    bottom: 30px;
+    & a{
+        
+        display: flex;
+        width: 50px;
+        height: 50px;
+        justify-content: center;
+        align-items: center;
+        background-color: #EF4056;
+        padding: 10px;
+        color: #ffffff;
+        border-radius: 80%;
+        & svg{
+            fill: #ffffff;
+            width: 24px;
+            height: 24px;
+            
+            
+            
+                        
+            
+        }
+
+    }
+}

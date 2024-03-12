@@ -1,0 +1,60 @@
+.Banner{
+    width: 100%;
+    height: 270px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+    
+    .Banner__center{
+        width: 100%;
+        height: inherit;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        column-gap: 13px;
+        .pic__right{
+            width: 670px;
+            height: 264px;
+            display: flex; 
+            justify-content: center;
+            align-items: center;
+            & a{
+                text-decoration: none;
+                width: 670px;
+                display: flex;
+                justify-content: center;
+            align-items: center;
+            height: 261px;
+                & img{
+                    width: inherit;
+                    height: inherit;
+                    border-radius: 20px;
+                }
+            }
+        }
+        .pic__left{
+            width: 670px;
+            height: 264px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+            & a{
+                text-decoration: none;
+                width: 670px;
+                display: flex;
+                justify-content: center; 
+                align-items: center;   
+                height: 261px;
+                & img{
+                    width: inherit;
+                    height: inherit;
+                    border-radius: 20px;
+                }
+            }
+        }
+    }
+}

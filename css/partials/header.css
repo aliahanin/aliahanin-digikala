@@ -1,0 +1,840 @@
+.header{
+    width: 100%;
+    height: 170px;
+}
+.header .banner{
+    width: 100%;
+    height: 60px;
+    background-color: aqua;
+
+}
+.header .banner img{
+ width: 100%;
+ height: 100%;
+ object-fit: cover;
+}
+.header .center{
+    width: inherit;
+    height: 70px;
+    
+    display: flex;
+    flex-flow: row wrap;
+}
+.header .center .logo{
+    width: 10%;
+    height: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.header .center .search{
+    width: 70%;
+    height: inherit;
+    display: flex;
+    align-items: center;
+    flex-flow: row wrap;
+    padding: 10px;
+}
+.header .center .search input[type=search]{
+    width: 600px;
+    height: 40px;
+    background-color: #F0F0F1;
+    border-radius: 7px;
+    border: unset;
+    outline: unset;
+    padding: 0 10px;
+}
+.header .center .search input[type=search]::placeholder{
+    padding-right: 30px   ;
+}
+.header .center .register{
+    width: 20%;
+    height: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 10px;
+}
+.header .center .register_login{
+    width: 135px;
+    height: 40px;
+    border: 1px solid #e0e0e2;
+    font-size: 11px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 5px;
+    text-decoration: none;
+    color: #2b2b2b;
+    font-weight: bold;
+    border-radius: 7px;
+}
+.header .center .register_login svg{
+    width: 24px;
+    height: 24px;
+
+}
+.header .center .register_login span{
+ display: inline-flex;
+ width: 2px;
+ height: 13px;
+ background-color: #2b2b2b;
+}
+.header .center .register_span{
+    display: inline-flex;
+    width: 1px;
+    height: 25px;
+    background-color: #e0e0e2;
+}
+.header .center .register .register_card{
+    margin-top: 10px;
+}
+.header .menu{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    flex-flow: row wrap;
+    
+     .menu__right{
+        width: 80%;
+        height: inherit;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+        & nav{
+            width: 100%;
+            height: 40px;
+            display: flex;
+            align-items: center;
+            flex-flow: row wrap ;
+            column-gap: 20px;
+            padding-right: 40px;
+            box-sizing: border-box;
+             .space{
+                width: 1px;
+                height: 15px;
+                background-color: #81858b;
+                opacity: 0.5;
+                
+            }
+            .menu__top{
+                width: fit-content;
+                height: inherit;
+                position: relative;
+                display: flex;
+                  > a{
+                     display: flex;
+                    width: fit-content;
+                    height: inherit;
+                    
+                    text-decoration: none;
+                    line-height: 40px;
+                    font-size: 14px;
+                    color: #2b2b2b;
+                    align-items: center;
+                    font-weight: bold;
+                }
+                .submenu{
+                    width: 70vw;
+                    height: 80vh;
+                    background-color: whitesmoke;
+                    right: 0%;
+                    top: 40px;
+                    position: absolute;
+                     display: none; 
+                     z-index: 15;
+                    .right__sub__menu{
+                        width: 15%;
+                        height: 100%;
+                        display: flex;
+                        align-items: right;
+                        justify-content: right;
+                        flex-flow: column ;
+                        overflow-y: scroll !important;
+                        direction: ltr;
+                        
+                        .right__sub__menu__item{
+                            width: 100%;
+                            height: 50px;
+                            background-color: whitesmoke;
+                            display: flex;
+                             >a{
+                                
+                                text-decoration: none;
+                                display: flex;
+                                flex-flow: row-reverse;
+                                width: 100%;
+                                height: inherit;
+                                text-align: right;
+                                font-size: 13px;
+                                font-weight: 400px;
+                                line-height: 50px;
+                                padding-right: 10px;
+                                box-sizing: border-box;
+                                color: #2b2b2b;
+                                font-weight: 400px;
+                                &:hover{
+                                    color: red;
+                                    background-color: white;
+                                    transition: 100ms;
+                                }
+                            }
+                            .MOBILES{
+                                display: flex;
+                                padding: 10px;
+                                justify-content: center;
+                                align-items: center;
+                                overflow: auto;
+                                direction: ltr;
+                                
+                                .Mega-mobile__top{
+                                    width: 100%;
+                                    height: 26px;
+                                    display: flex;
+                                    justify-content: center;
+                                    align-items: center;
+                                    padding-right: 10px;
+                                    padding-top: 10px;
+                                    & a{
+                                        color: #008EB2;
+                                        font-size: 12px;
+                                        display: flex;
+                                        justify-content: right;
+                                        flex-flow: row-reverse;
+                                        & svg{
+                                            fill: #008EB2;
+                                        }
+
+                                    }
+                                }
+                                .Mega-mobile__buttom{
+                                    width: 880px;
+                                    padding-top: 30px;
+                                    height: 1380px;
+                                    display: flex;
+                                    flex-flow: column wrap;
+                                    .Mega-column-1{
+                                        width: 220px;
+                                        display: flex;
+                                        height: 800px;
+                                        flex-flow: column wrap;
+                                        padding-right: 10px;
+                                        column-gap: 10px;
+                                        align-items: flex-end;
+                                       
+                                        & span{
+                                            display: flex !important;
+                                            justify-content: flex-start;
+                                            align-items: center;
+                                            font-weight: 800;
+                                            font-family: var(font-family);
+                                            gap: 5px;
+                                            font-size: 13px;
+                                            padding-bottom: -20px;
+                                            cursor: pointer;
+                                            flex-flow: row-reverse;
+                                            & span{
+                                            
+                                                width: 1px;
+                                                height: 15px;
+                                                 background-color: crimson;
+                                                 display: flex;
+                                                 align-items: center;
+                                                 justify-content: center;
+                                             
+                                        }
+                                           
+                                        }
+                                        & p{
+                                            display: flex;
+                                            justify-content: right;
+                                            font-size: 12px;
+                                            color: #81858b;
+                                            font-family: var(font-family);
+                                            padding-top: 20px;
+                                            cursor: pointer;
+                                            
+                                        }
+                                    }
+                                    .Mega-column-2{
+                                        width: 220px;
+                                        height: auto;
+                                        padding-right: 15px;
+                                        display: flex;
+                                        justify-content: right;
+                                        align-items: flex-end;
+                                        flex-flow: column wrap;
+                                        & h5{
+                                            display: flex !important;
+                                            justify-content: flex-start;
+                                            align-items: center;
+                                            font-family: var(font-family);
+                                            gap: 5px;
+                                            cursor: pointer;
+                                            flex-flow: row-reverse;
+                                            & span{
+                                            
+                                                width: 2px;
+                                                height: 15px;
+                                                 background-color: crimson;
+                                                 display: flex;
+                                                 align-items: center;
+                                                 justify-content: center;
+                                                 
+                                             
+                                        }
+                                            
+                                        }
+                                        & p{
+                                            display: flex;
+                                            justify-content: right;
+                                            font-size: 12px;
+                                            padding-right: 5px;
+                                            color: #81858b;
+                                            font-family: var(font-family);
+                                            padding-top: 20px;
+                                            cursor: pointer;
+                                        }
+                                       
+                                    }
+                                    .Mega-column-3{
+                                        width: 220px;
+                                        height: 1000px;
+                                        display: flex;
+                                        justify-content: right;
+                                        align-items: flex-end;
+                                        flex-flow: column wrap;
+                                        & h5{
+                                            display: flex !important;
+                                            justify-content: flex-start;
+                                            align-items: center;
+                                            font-family: var(font-family);
+                                            gap: 5px;
+                                            cursor: pointer;
+                                            flex-flow: row-reverse;
+                                            & span{
+                                            
+                                                width: 2px;
+                                                height: 15px;
+                                                 background-color: crimson;
+                                                 display: flex;
+                                                 align-items: center;
+                                                 justify-content: center;
+                                                 
+                                             
+                                        }
+                                            
+                                        }
+                                        & p{
+                                            display: flex;
+                                            justify-content: right;
+                                            font-size: 12px;
+                                            padding-right: 5px;
+                                            color: #81858b;
+                                            font-family: var(font-family);
+                                            padding-top: 20px;
+                                            cursor: pointer;
+                                            
+                                        }
+                                    }
+                                    .Mega-column-4{
+                                        width: 220px;
+                                        height: 1000px;
+                                        display: flex;
+                                        justify-content: right;
+                                        align-items: right;
+                                        flex-flow: column wrap;
+                                        & h5{
+                                            display: flex !important;
+                                            justify-content: flex-start;
+                                            align-items: center;
+                                            font-family: var(font-family);
+                                            gap: 5px;
+                                            cursor: pointer;
+                                            flex-flow: row-reverse;
+                                            & span{
+                                            
+                                                width: 2px;
+                                                height: 15px;
+                                                 background-color: crimson;
+                                                 display: flex;
+                                                 align-items: center;
+                                                 justify-content: center;
+                                                 
+                                             
+                                        }
+                                            
+                                        }
+                                        & p{
+                                            display: flex;
+                                            justify-content: right;
+                                            font-size: 12px;
+                                            padding-right: 5px;
+                                            color: #81858b;
+                                            font-family: var(font-family);
+                                            padding-top: 20px;
+                                            cursor: pointer;
+                                            
+                                        }
+
+                                    }
+                                }
+                                
+                            }
+                            .Electronic{
+                                display: none !important;
+                                justify-content: center;
+                                align-items: center;
+                                overflow: auto ;
+                                direction: ltr;
+                                position: absolute;
+                                top: 0;
+                                left: 0;
+                                gap: 0 !important;
+                                .electronic__top{
+                                    
+                                        width: 100%;
+                                        height: 26px;
+                                        display: flex;
+                                        justify-content: center;
+                                        align-items: center;
+                                        padding-right: 10px;
+                                        padding-top: 10px;
+                                        & a{
+                                            color: #008EB2;
+                                            font-size: 12px;
+                                            display: flex;
+                                            flex-flow: row-reverse;
+                                            justify-content: right;
+                                            padding-top: 10px;
+                                            padding-right: 10px;
+                                            & svg{
+                                                fill: #008EB2;
+                                            }
+    
+                                        }
+                                    
+                                }
+                                .electronic__buttom{
+                                    width: 100%;
+                                    padding-top: 30px;
+                                    height: fit-content !important;
+                                    display: flex;
+                                    flex-flow: row-reverse wrap;
+                                    .electronic__column-1{
+                                        width: 220px;
+                                        padding-right: 15px;
+                                        display: flex;
+                                        justify-content: right;
+                                        align-items: right;
+                                        flex-flow: column wrap;
+                                        & h5{
+                                            display: flex !important;
+                                            justify-content: flex-start;
+                                            align-items: center;
+                                            font-family: var(font-family);
+                                            gap: 5px;
+                                            cursor: pointer;
+                                            flex-flow: row-reverse;
+                                            & span{
+                                            
+                                                width: 2px;
+                                                height: 15px;
+                                                 background-color: crimson;
+                                                 display: flex;
+                                                 align-items: center;
+                                                 justify-content: center;
+                                                 
+                                             
+                                        }
+                                            
+                                        }
+                                        & p{
+                                            display: flex;
+                                            justify-content: right;
+                                            font-size: 12px;
+                                            padding-right: 5px;
+                                            color: #81858b;
+                                            font-family: var(font-family);
+                                            padding-top: 20px;
+                                            cursor: pointer;
+                                        }
+                                    }
+                                    .electronic__column-2{
+                                        width: 220px;
+                                        padding-right: 15px;
+                                        display: flex;
+                                        justify-content: right;
+                                        align-items: right;
+                                        flex-flow: column wrap;
+                                        & h5{
+                                            display: flex !important;
+                                            justify-content: flex-start;
+                                            align-items: center;
+                                            font-family: var(font-family);
+                                            gap: 5px;
+                                            cursor: pointer;
+                                            flex-flow: row-reverse;
+                                            & span{
+                                            
+                                                width: 2px;
+                                                height: 15px;
+                                                 background-color: crimson;
+                                                 display: flex;
+                                                 align-items: center;
+                                                 justify-content: center;
+                                                 
+                                             
+                                        }
+                                            
+                                        }
+                                        & p{
+                                            display: flex;
+                                            justify-content: right;
+                                            font-size: 12px;
+                                            padding-right: 5px;
+                                            color: #81858b;
+                                            font-family: var(font-family);
+                                            padding-top: 20px;
+                                            cursor: pointer;
+                                        }
+                                    }
+                                    .electronic__column-3{
+                                        width: 220px;
+                                        padding-right: 15px;
+                                        display: flex;
+                                        justify-content: right;
+                                        align-items: right;
+                                        flex-flow: column wrap;
+                                        & h5{
+                                            display: flex !important;
+                                            justify-content: flex-start;
+                                            align-items: center;
+                                            font-family: var(font-family);
+                                            gap: 5px;
+                                            cursor: pointer;
+                                            flex-flow: row-reverse;
+                                            & span{
+                                            
+                                                width: 2px;
+                                                height: 15px;
+                                                 background-color: crimson;
+                                                 display: flex;
+                                                 align-items: center;
+                                                 justify-content: center;
+                                                 
+                                             
+                                        }
+                                            
+                                        }
+                                        & p{
+                                            display: flex;
+                                            justify-content: right;
+                                            font-size: 12px;
+                                            padding-right: 5px;
+                                            color: #81858b;
+                                            font-family: var(font-family);
+                                            padding-top: 20px;
+                                            cursor: pointer;
+                                        }
+                                    }
+                                    .electronic__column-4{
+                                        width: 220px;
+                                        padding-right: 15px;
+                                        display: flex;
+                                        justify-content: right;
+                                        align-items: right;
+                                        flex-flow: column wrap;
+                                        & h5{
+                                            display: flex !important;
+                                            justify-content: flex-start;
+                                            align-items: center;
+                                            font-family: var(font-family);
+                                            gap: 5px;
+                                            cursor: pointer;
+                                            flex-flow: row-reverse;
+                                            & span{
+                                            
+                                                width: 2px;
+                                                height: 15px;
+                                                 background-color: crimson;
+                                                 display: flex;
+                                                 align-items: center;
+                                                 justify-content: center;
+                                                 
+                                             
+                                        }
+                                            
+                                        }
+                                        & p{
+                                            display: flex;
+                                            justify-content: right;
+                                            font-size: 12px;
+                                            padding-right: 5px;
+                                            color: #81858b;
+                                            font-family: var(font-family);
+                                            padding-top: 20px;
+                                            cursor: pointer;
+                                        }
+                                    }
+                                    
+                                }
+                            }
+                            .sub__sub__menu{
+                                
+                                width: 85%;
+                                height: 100%;
+                                display: none ;
+                                position: absolute;
+                                left: 0;
+                                top: 0;
+                                flex-flow: row wrap;
+                                gap:5px; 
+                                justify-content: center;
+                                text-align: center;
+                                >div{
+                                    width: 24%;
+                                    height:100%;
+                                    background-color: whitesmoke;   
+                                 >a{
+                                    display: block;
+                                    width: 100%;
+                                    height: 30px;
+                                    text-align: right;
+                                    text-decoration: none;
+                                    color: #2b2b2b; 
+                                    line-height: 10px;
+
+
+                                 }   
+                                }
+                            }
+                            
+                            &:hover .sub__sub__menu{
+                                display: flex !important;
+
+                            }
+                         }
+                    }
+                }
+                &:hover .submenu{
+                    display: block;
+
+                }
+                .active{
+                    color: #2b2b2b;
+                    font-weight: bold;
+                    font-size: 13px;
+                    & svg{
+                        margin-top: -5px;
+                    }  
+                }
+            }
+          
+          >div{
+            width: fit-content;
+            height: 40px;
+            display: flex;
+            & a{
+                text-decoration: none;
+                display: flex;
+                width: fit-content;
+                height: inherit;
+                text-transform: capitalize;
+                font-size: 12px;
+                color: #2b2b2b;
+                opacity: 0.9;
+                align-items: center;
+                column-gap: 5px;
+                
+                > svg{
+                    display: flex;
+                    width: 18px ;
+                    height: 18px ;
+                    font-size: 10px;
+                    justify-content: center;
+                    align-items: center;
+                    fill: #81858b; 
+                    opacity: 0.7; 
+                    
+                }
+                
+
+            }
+            &:hover{
+                border-bottom: 2px solid crimson;
+                transition: 100ms;
+                transition-delay: 100ms;
+    
+            }
+          } 
+            
+           }
+         
+        }
+        
+
+     
+    }
+    .menu__left{
+        width: 20%;
+        height: inherit;
+        padding-right: 100px;
+        display: flex;
+        flex-flow: row wrap;
+        align-items: center;
+        justify-content: center;
+         & label[for=show]{
+            width: 300px;
+            height: 50px;
+            padding: 10px;
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: center;
+            align-items: center;
+            column-gap: 5px;
+            font-size: 12px;
+            font-family: var(--font-family);
+            text-align: center;
+            line-height: 30px;
+            font-weight: 500;
+            inset: 0;
+            
+        }
+       
+        .city{
+            width: 462px;
+            overflow: hidden;
+            height: 600px;
+            background-color: whitesmoke;
+            position: absolute;
+            border-radius: 10px;
+            left: 600px;
+            top: 150px;
+            z-index: 30;
+            display: none;
+            flex-flow: row wrap;
+            overflow-y: scroll;
+            
+            .city__top{
+                display: flex;
+                border-bottom: 1px solid lightgray;
+                
+                width: 460px;
+                height: 58.5px;
+                
+                & label[for=close]{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    
+                    width: 30px;
+                    height: 30px;
+                    position: absolute;
+                    left: 20px;
+                    top: 20px;
+                    cursor: pointer;
+                    text-align: center;
+                    font-size: 30px;
+                    font-weight: bold;
+                    
+                }
+                & h4{
+                    display: flex;
+                    padding-top: 20px;
+                    padding-right: 20px;
+                    
+                }
+            }
+            .city__center{
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                flex-flow: row wrap;
+                position: absolute;
+                top: 60px;
+                
+                & div{
+                    display: flex;
+                    padding-top: 20px ;
+                    width: 403px;
+                    height: 42px;
+                    column-gap: 5px;
+                    & a{
+                        display: flex;
+                        padding-right: 13px;
+                        column-gap: 5px;
+                        text-decoration:  none;
+                        text-transform: capitalize;
+                        font-size: 15px;
+                        font-weight: bold;
+                        color: #008EB2;
+                        & svg{
+                           width: 20px;
+                           height: 20px;
+                           fill: #008EB2;
+                        }
+                    }
+                }
+                & div ~ div{
+                    width: 400px;
+                    height: 42px;
+                    
+                    display: flex;
+                    justify-content: space-between;
+                    margin-top: 30px;
+                    border-bottom: 1px solid lightgray;
+                   
+                    & span{
+                        font-size: 17px;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        font-family: var(--font-family);
+                        padding-right: 20px;
+                        padding-bottom: 20px;
+                        
+
+                    }
+                    & svg{
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        transform: translate(10px , -10px);
+                    }
+                }
+
+                
+            }
+        }   
+        #show,#close{display: none;}
+        #show:checked ~ .city{
+            display: flex;
+        }
+        #close:checked ~ .city{
+            display: none;
+        }
+    }
+
+
+
+::-webkit-scrollbar{
+    width: 10px;
+    background-color: lightgrey;
+    border-radius: 8px;
+}
+::-webkit-scrollbar-thumb{
+    width: 10px;
+    background-color: grey;
+    border-radius: 8px;
+}
+.activeMenu{
+    display: flex !important;
+    
+
+    
+}
+
+
+

@@ -1,0 +1,10 @@
+.banner__wonderful{
+    width: 100%;
+    height: 64px;
+    background-color: crimson;
+    background-image: url(https://www.digikala.com/statics/img/svg/amazing/header.svg);
+    background-repeat: no-repeat;
+    display: flex;
+    background-position: center center;
+    background-size: contain;
+}

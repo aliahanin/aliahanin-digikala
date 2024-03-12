@@ -1,0 +1,46 @@
+*,
+*::placeholder{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: var(--font-family); 
+}
+body{
+    direction: rtl;
+}
+@font-face{
+    font-family: IRANYEKAN;
+    src: url('../../fonts/IRANYekanWeb.eot');
+    src: url('../../fonts/IRANYekanWeb.ttf');
+    src: url('../../fonts/IRANYekanWeb.woff');
+    src: url('../../fonts/IRANYekanWeb.woff2');
+}
+@font-face {
+    font-family: HOMA;
+    src: url("../../fonts/HOMA/B\ Homa_0.ttf");
+}
+@font-face {
+    font-family: SALAMAT;
+    src: url("../../fonts/SALAMAT/Salamat.ttf");
+}
+@font-face {
+    font-family: Nazanin;
+    src: url("../../fonts/Far_Nazanin.ttf");
+}
+:root {
+    --font-family: IRANYEKAN;
+    --font-family-sans: HOMA;
+    --font-family-salamat:SALAMAT;
+    --font-family-Nazanin: Nazanin;
+}
+
+.wrapper{
+    width: 100%;
+}
+.wrapper__login{
+    width: 100%;
+    
+}
+.wrapper__wonderful{
+    width: 100%;
+}
